@@ -1,0 +1,40 @@
+body {
+
+    background-color: tomato;
+    margin: 50px 0;
+    font-family: "Roboto", sans-serif;
+  
+}
+
+.contenedorpadre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.contenedorheader {
+    background-color: white;
+    width: 500px;
+   
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.iconosizquierda {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 15px ;
+}
+
+.iconosderecha{
+    margin-right: 15px;
+}
